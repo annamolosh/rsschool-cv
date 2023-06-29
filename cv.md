@@ -4,9 +4,9 @@ ____
 
 ## Contacts
 
-**Location:** Warsaw, Poland
-**Phone:** +48 573 816 533
-**E-mail:** hanna.molash@gmail.com
+**Location:** Warsaw, Poland 
+**Phone:** +48 573 816 533 
+**E-mail:** hanna.molash@gmail.com 
 **[GitHub](https://github.com/annamolosh)** | **[Behance](https://www.behance.net/annamolosh)** | **[Linkedin](https://www.linkedin.com/in/anna-molosh-0305bb251/)** | **[Instagram](https://www.instagram.com/amolosh.design/)**
 ____
 
