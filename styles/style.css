@@ -1,0 +1,275 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.1);
+  margin: 50px 0;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.black-rectangle {
+  min-width: 30%;
+  background-color: #2c323d;
+  color:#ffffff;
+  padding: 75px 96px;
+  border-radius: 5px 0 0 0;
+}
+
+.white-rectangle {
+  background-color: #ffffff;
+  padding: 75px 96px;
+  border-radius: 0 5px 5px 0;
+}
+
+.info-block {
+  margin-top: 50px;
+}
+
+hr {
+  width: 40px;
+  height: 1px !important;
+  opacity: 100%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+img.photo {
+  height: 192px;
+  width: 192px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.name-professions-info {
+  height: 192px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.professions {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.contact-info-item {
+  font-weight: 300;
+  margin-top: 16px;
+}
+
+.education-item {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.phone-number {
+  font-size: 14px;
+}
+
+.email-name {
+  font-size: 14px;
+}
+
+.address {
+  font-size: 14px;
+}
+
+.years {
+  margin-top: 3px;
+}
+
+.degree {
+  margin-top: 3px;
+}
+
+.university {
+  margin-top: 3px;
+}
+
+.language {
+  margin-top: 5px;
+  font-size: 14px;
+
+  display: flex;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.circle-dark {
+  display: inline-block;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.circle.fill {
+  background-color: white;
+}
+
+.circle-dark.fill {
+  background-color: black;
+}
+
+.language-name {
+  margin-right: 5px;
+  line-height: 14px;
+  width: 50%;
+}
+
+.skill {
+  display: flex;
+  margin-top: 5px;
+}
+
+.skill-name {
+  width: 50%;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.skill-score {
+  line-height: 14px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-left {
+  width: 50%;
+}
+
+.skills-right {
+  width: 50%;
+}
+
+.code {
+  display: block;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.expirience-item {
+  display: flex;
+  margin-top: 10px;
+}
+
+.expirience-left {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.expirience-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.period {
+  font-weight: 500;
+}
+
+.position {
+  font-weight: 400;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.company-name {
+  margin-top: 3px;
+}
+
+.profile-info {
+  font-size: 14px;
+}
+
+.social-media-info {
+  display: flex;
+}
+
+.social-media-link {
+  font-size: 24px;
+  padding: 5px
+}
+
+a.social-media-link {
+  color: white;
+  text-decoration: none;
+}
+
+a.social-media-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: white;
+
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 5px 5px;
+}
+
+.my-github-account {
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 5px;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+}
+
+.rs-school-image {
+  width: 30px;
+  height: 20px;
+}
