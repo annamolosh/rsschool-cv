@@ -11,6 +11,9 @@ h2 {
   font-weight: 600;
   font-style: normal;
   font-size: 48px;
+
+  margin: 0 0 20px 0;
+
 }
 
 .caption-h5 {
@@ -34,6 +37,9 @@ p {
   font-style: normal;
   font-size: 16px;
   letter-spacing: 0.48px;
+  text-align: justify;
+
+  margin: 0;
 }
 
 .caption {
@@ -88,6 +94,8 @@ nav {
   display:flex;
   flex-direction:row;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 h1 { 
@@ -98,3 +106,117 @@ h1 {
   margin: 0;
 }
 
+.name-title {
+  width: 683px;
+}
+
+
+.footer-menu{
+  height: 64px;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size-icon{
+  height: 64px;
+  width: auto;
+  display: block;
+}
+
+.first-column  {
+  width: 557px;
+  margin-right: 20px;
+}
+
+.second-column{
+  width: 557px;
+}
+
+.indent{
+  /* text-indent: 16px; */
+  margin-bottom: 16px;
+}
+
+.part{
+  margin-bottom: 40px;
+}
+
+.sub-section{
+  margin-bottom: 20px;
+}
+
+.sub-section > .caption-h5 {
+  margin-bottom: 12px;
+}
+
+.first-column > .part:last-child{
+  margin:0;
+}
+
+.second-column > .part:last-child{
+  margin:0;
+}
+
+.title {
+  margin-bottom: 60px; 
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.code-example {
+  width:557px;
+  height:62px;
+  border-radius: 10px;
+  background-color: rgba(190, 190, 190, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+code {
+  color: #1B1B1B;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.contact-item > img:first-child{
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.contact-item-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-item-icon {
+  padding: 4px;
+}
+
+.contact-item-icon:first-child{
+  margin-left: 0px;
+}
