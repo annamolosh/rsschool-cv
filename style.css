@@ -42,6 +42,19 @@ p {
   margin: 0;
 }
 
+.list {
+  list-style-type: none;
+  padding-inline-start: 0;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  text-align: justify;
+}
+
 .caption {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -53,8 +66,18 @@ p {
   text-transform: uppercase;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 10%; */
+  max-width: 1140px;        /* 1440 - 150*2 = 1140 */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 nav {
@@ -129,21 +152,33 @@ h1 {
   display: block;
 }
 
-.first-column  {
-  width: 557px;
-  margin-right: 20px;
+.column {
+  max-width: 45%;
+
+  flex: 1 0 auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.second-column{
-  width: 557px;
+.column:first-child {
+  margin-right: 5%;
 }
+
+.column:last-child {
+  margin-left: 5%;
+}
+
 
 .indent{
   /* text-indent: 16px; */
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .part{
+  display: flex;
+  flex-direction: column;
+
   margin-bottom: 40px;
 }
 
@@ -171,15 +206,15 @@ main {
   margin-bottom: 60px;
 }
 
-.profile{
+.profile {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .code-example {
-  width:557px;
-  height:62px;
+  flex-grow: 1;
+  padding: 2rem;
   border-radius: 10px;
   background-color: rgba(190, 190, 190, 0.5);
   display: flex;
@@ -192,6 +227,22 @@ code {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color:black;
+}
+
+a:hover{
+  color:#5058A3;
+}
+
+.contact-item-li {
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-item {
@@ -205,18 +256,26 @@ a {
   margin-right: 8px;
   width: 20px;
   height: 20px;
+  padding: 4px
 }
 
 .contact-item-social {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 32px;
 }
 
 .contact-item-icon {
   padding: 4px;
+  margin: 0 4px;
 }
 
-.contact-item-icon:first-child{
-  margin-left: 0px;
+.link-social:first-child {
+  margin-left: -4px;
+}
+
+.link-social {
+  margin: 0 4px;
+  display: inline-flex;
 }
